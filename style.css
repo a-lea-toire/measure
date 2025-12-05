@@ -23,12 +23,12 @@ section {
 	gap: 1rem;
 	justify-content: space-between;
 }
-section.image { flex: 1 0 auto }
-section.texte { flex: 0 1 auto }
+section .image { flex: 1 0 auto }
+section .texte { flex: 0 1 auto }
 
 /* image grande */
-section.image { position: relative;}
-section.image img { 
+section .image { position: relative;}
+section .image img { 
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -48,9 +48,9 @@ section.image img {
 	flex: 1;
 }
 
-/* section {outline: 2px solid blue; outline-offset: -4px;}
+ section {outline: 2px solid blue; outline-offset: -4px;}
 .texte {outline: 2px solid red; outline-offset: -2px;}
-.image {outline: 2px solid purple; outline-offset: -2px;} */
+.image {outline: 2px solid purple; outline-offset: -2px;} 
 
 
 /* scrolling */
