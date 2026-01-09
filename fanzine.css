@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+	font-family: "Sono", monospace;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family:"Space mono", monospace;
+	margin: 0;
+	font-size: 20px;
+}
+
+p{
+	margin: 0;
+	font-size: 12px;
+}
+
+section{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+
+}
+
+section img{
+	width: auto;
+	height: 100%;
+	object-fit: cover;
+	margin: 0;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(5,20vmin);
+	grid-auto-rows:20vmin;
+	width: min-content;
+}
+
+.box {
+  border-left: 2px solid black;
+  box-sizing: border-box;
+} 
+
+
+
+

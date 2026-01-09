@@ -1,0 +1,34 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(8, [col1-start] 1fr [col2-start]);
+}
+
+.item1to5{
+	grid-column: col-start / col-start 5;
+	border: 1px solid orange;
+}
+
+.item6to8{
+	grid-column: col-start 6 / span 2;
+	border: 1px solid orange;
+}
+/* .box1 {
+	grid-area: One;
+	border: 1px solid orange;
+}
+
+.box2 {
+	grid-area: Two;
+	border: 1px solid orange;
+}
+
+.box3 {
+	grid-area: Three;
+	border: 1px solid orange;
+}
+
+.box4 {
+	grid-area: four;
+	border: 1px solid orange;
+}  */
+
