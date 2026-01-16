@@ -6,10 +6,15 @@ body{
 	padding: 0;
 }
 
-h1{
+.titre{
 	font-family:"Space mono", monospace;
 	margin: 0;
 	font-size: 20px;
+	min-width: 10em;
+	max-width: 2em;
+	text-decoration: none;
+	color: black;
+	font-weight:bolder;
 }
 
 p{
